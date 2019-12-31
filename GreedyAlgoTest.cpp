@@ -1,6 +1,6 @@
 /**************************************************************************************************/
 // Test File for Dijkstra's shortest path first algorithm
-// Author: Mihir Patel
+// Author of this file: William Oropallo
 // Requires the Catch2 header file
 // How to compile: g++ -std=c++17 -Wall -I$(CATCH_SINGLE_INCLUDE) (All cpp files)
 // Example if Catch2 and source files are in this directory and at directory level: 
