@@ -12,20 +12,20 @@ Program would be implementing an undirected weighted Graph ADT and performing Di
 
 Furthermore, there are following abstractions-  
 
-**void addVertex(std::string label)**    
-Creates and adds a vertex to the graph with label. No two vertices have the same label. 
+1) **void addVertex(std::string label)**    
+  - Creates and adds a vertex to the graph with label. No two vertices have the same label. 
 
-**void removeVertex(std::string label)**    
-Removes the vertex with label from the graph. Also removes the edges between that vertex and the other vertices of the graph. 
+2) **void removeVertex(std::string label)**    
+  - Removes the vertex with label from the graph. Also removes the edges between that vertex and the other vertices of the graph. 
 
-**void addEdge(std::string label1, std::string label2, unsigned long weight)**   
-Adds an edge of value weight to the graph between the vertex with label1 and the vertex with label2. 
+3) **void addEdge(std::string label1, std::string label2, unsigned long weight)**   
+  - Adds an edge of value weight to the graph between the vertex with label1 and the vertex with label2. 
 
-**void removeEdge(std::string label1, std::string label2)**   
-Removes the edge from the graph between the vertex with label1 and the vertex with label2.
+4) **void removeEdge(std::string label1, std::string label2)**   
+  - Removes the edge from the graph between the vertex with label1 and the vertex with label2.
 
-**unsigned long shortestPath(std::string startLabel, std::string endLabel, std::vector<std::string> &path)**   
-Calculates the shortest path between the vertex with startLabel and the vertex with endLabel using Dijkstra's Algorithm. A vector is passed into the method that stores the shortest path between the vertices. The return value is the sum of the edges between the start and end vertices on the shortest path. 
+5) **unsigned long shortestPath(std::string startLabel, std::string endLabel, std::vector<std::string> &path)**   
+  - Calculates the shortest path between the vertex with startLabel and the vertex with endLabel using Dijkstra's Algorithm. A vector is passed into the method that stores the shortest path between the vertices. The return value is the sum of the edges between the start and end vertices on the shortest path. 
 
 Please use test file GreedyAlgoTest.cpp to test your given input. 
       
