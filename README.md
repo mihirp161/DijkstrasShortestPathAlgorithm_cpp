@@ -6,6 +6,10 @@ Author
 -------
 Mihir Patel   
 
+Status
+-------
+Completed
+
 Description
 -------------   
 Program would be implementing an undirected weighted Graph ADT and performing Dijkstra's Algorithm to find the shortest path between two vertices. The graph is implemented using  an adjacency list. The graph has an implementation of methods that add and remove vertices, add and remove edges, and calculate the shortest path. Each vertex in the graph have a string label that will help identify that vertex to you and the test file. 
